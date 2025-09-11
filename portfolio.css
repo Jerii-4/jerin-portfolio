@@ -408,6 +408,17 @@ section {
   animation-delay: 5s;
 }
 
+/* Footer */
+footer {
+  padding: 2rem 0;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+footer p {
+  color: #7a7a94;
+}
+
 @keyframes alternateText {
   0%,
   42% {
@@ -430,17 +441,6 @@ section {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-/* Footer */
-footer {
-  padding: 2rem 0;
-  text-align: center;
-  border-top: 1px solid #333;
-}
-
-footer p {
-  color: #7a7a94;
 }
 
 /* Media Queries */
