@@ -492,9 +492,6 @@ footer p {
   }
 }
 
-/* Media Queries */
-
-/* Half-screen desktop (narrow desktop) */
 @media (max-width: 1200px) and (min-width: 769px) {
   .container {
     max-width: 95vw;
@@ -590,7 +587,6 @@ footer p {
   }
 }
 
-/* Mobile phones */
 @media (max-width: 480px) {
   .header-container {
     display: flex;
@@ -690,7 +686,6 @@ footer p {
   }
 }
 
-/* Very small screens */
 @media (max-width: 320px) {
   .header-container {
     display: flex;
@@ -734,7 +729,6 @@ footer p {
   }
 }
 
-/* Landscape mobile phones */
 @media (max-height: 500px) and (orientation: landscape) {
   .header-container {
     display: flex;
